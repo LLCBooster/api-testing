@@ -2,8 +2,8 @@
 
 ## Links
 
-- [Allure Report on GitHub Pages](https://nikita-filonov.github.io/python-api-tests/8/index.html)
-- [GitHub Actions CI/CD](https://github.com/Nikita-Filonov/python-api-tests/actions)
+- [Allure Report on GitHub Pages]()
+- [GitHub Actions CI/CD]()
 
 ## Overview
 
@@ -51,7 +51,7 @@ Ensure that you have the following installed on your system:
 Clone the repository and navigate to the project directory:
 
 ```shell
-git clone https://github.com/Nikita-Filonov/python-api-tests.git
+git clone 
 cd python-api-tests
 ```
 
@@ -101,7 +101,7 @@ workflow is configured to:
 - Generate and upload Allure reports as artifacts.
 - Publish the[ Allure report](https://allurereport.org/) to [GitHub Pages](https://pages.github.com/) for easy access.
 
-Ensure that the [gh-pages](https://github.com/Nikita-Filonov/python-api-tests/tree/gh-pages) branch exists in your
+Ensure that the [gh-pages]() branch exists in your
 repository for successful deployment. If it does not exist, create it manually:
 
 ```shell
@@ -128,10 +128,10 @@ Once set up, your tests will run automatically, and the Allure report will be de
 
 After a successful test run in CI/CD:
 
-- The Allure report will be available at [GitHub Pages](https://nikita-filonov.github.io/python-api-tests/8/index.html).
+- The Allure report will be available at [GitHub Pages]().
 - The workflow logs and artifacts can be accessed
-  via [GitHub Actions](https://github.com/Nikita-Filonov/python-api-tests/actions).
-- If the [*pages build and deployment*](https://github.com/Nikita-Filonov/python-api-tests/actions/runs/14155385792)
+  via [GitHub Actions]().
+- If the [*pages build and deployment*]()
   workflow does not appear, verify your GitHub Pages settings:
     - Go to Settings > Pages.
     - Under Build and deployment, ensure the source is set to the `gh-pages` branch.
